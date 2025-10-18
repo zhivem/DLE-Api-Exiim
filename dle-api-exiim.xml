@@ -3,7 +3,7 @@
 	<name>DLE Api Exiim</name>
 	<description></description>
 	<icon>engine/skins/images/dle_exiim.png</icon>
-	<version>1.0</version>
+	<version>1.1</version>
 	<dleversion>19</dleversion>
 	<versioncompare>greater</versioncompare>
 	<upgradeurl></upgradeurl>
@@ -1171,6 +1171,7 @@ if ($sequels_enabled && !empty($sequels_ids)) {
     $sql_select .= " WHERE ".implode(' AND ', $where)." ORDER BY SUBSTRING_INDEX(SUBSTRING_INDEX(p.xfields, 'year|', -1), '||', 1) ASC LIMIT " . $custom_from . "," . $custom_limit;
 } else {
     $sql_select .= " WHERE ".implode(' AND ', $where)." ORDER BY " . $fixed . $news_sort . " " . $news_msort . " LIMIT " . $custom_from . "," . $custom_limit;
+
 }]]></replacecode>
 			<enabled>1</enabled>
 		</operation>
