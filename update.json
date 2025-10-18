@@ -1,0 +1,5 @@
+{
+  "version": "1.1",
+  "download_url": "https://github.com/username/dle-api-exiim/releases/download/v1.1/dle-api-exiim.zip",
+  "changelog": "Исправлены баги, добавлена поддержка новых API."
+}
