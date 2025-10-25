@@ -2,7 +2,7 @@
 
 ![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)
 ![DLE](https://img.shields.io/badge/DLE-19.x-green.svg)
-![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg)
+![PHP](https://img.shields.io/badge/PHP-8.3+-purple.svg)
 
 Мощный модуль для автоматического обновления и добавления контента через API Exiim. Полная интеграция с Кинопоиском, TMDB и другими сервисами.
 
