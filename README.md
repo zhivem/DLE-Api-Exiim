@@ -2,7 +2,7 @@
 
 # DLE Api Exiim - Модуль для автоматизации контента
 
-![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.3-blue.svg)
 ![DLE](https://img.shields.io/badge/DLE-19.x-green.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.3+-purple.svg)
 
