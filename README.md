@@ -97,9 +97,17 @@
 Модуль автоматически обновляет материалы при их просмотре, если включена соответствующая опция.
 
 ### Cron-автоматизация
-Добавьте в cron:
+Добавьте в cron - Новинки: 
 ```bash
 /usr/bin/wget --no-check-certificate -O /dev/null -q "https://ваш-сайт.ru/index.php?controller=ajax&mod=cron_add_content&token=ВАШ_ТОКЕН"
+```
+Полная база (все года)
+```bash
+/usr/bin/wget --no-check-certificate -O /dev/null -q "https://ваш-сайт.ru/index.php?controller=ajax&mod=cron_full_base&token=ВАШ_ТОКЕН"
+```
+Полная база (по году)
+```bash
+/usr/bin/wget --no-check-certificate -O /dev/null -q "http://ваш-сайт/index.php?controller=ajax&mod=cron_full_base&token=ВАШ_ТОКЕН&year=YEAR"
 ```
 
 ### Ручное обновление
