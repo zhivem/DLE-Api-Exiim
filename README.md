@@ -121,7 +121,6 @@
 
 - **GitHub Issues**: [Сообщения о проблемах](https://github.com/zhivem/DLE-Api-Exiim/issues)
 - **Автор**: Zhivem
-- **Версия**: 1.0.2
 
 ## 📄 Лицензия
 
